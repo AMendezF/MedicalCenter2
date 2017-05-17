@@ -28,7 +28,7 @@ public class Login extends javax.swing.JPanel {
 	@SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
-
+/*
         iniciarSesion = new javax.swing.JPanel();
         passwordFieldPassword = new javax.swing.JPasswordField();
         labelUser = new javax.swing.JLabel();
@@ -210,3 +210,5 @@ public class Login extends javax.swing.JPanel {
     // End of variables declaration//GEN-END:variables
 */
 	}
+}
+
