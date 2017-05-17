@@ -18,7 +18,7 @@ import java.util.Scanner;
  *
  * @author Berta
  */
-public class main {
+public class main {/*
 
 	public static int[] especialidadesMa(Conexion con, int dia) throws SQLException {
 		int[] res = {0, 0, 0, 0, 0};
@@ -561,7 +561,7 @@ public class main {
 
 	}*/
 
-	private static void addMedicoSustituto(int codEspecialidad, int codColegiado, String horario, Conexion con) throws SQLException {
+	/*private static void addMedicoSustituto(int codEspecialidad, int codColegiado, String horario, Conexion con) throws SQLException {
 		Scanner sc = new Scanner(System.in);
 		String nombre;
 		String apellidos;
@@ -649,7 +649,7 @@ public class main {
 			crearUserBD(con, codigo);
 			setPermisosBD(con, codigo);
 		}
-	}
+	}*/
 
 	/*private static void trasladarCitas(Conexion con, int codMedicoViejo, int codMedicoSustituto) throws SQLException {
 		Connection reg = con.getCon();
@@ -660,7 +660,7 @@ public class main {
 		preparedStmt.setInt(2, codMedicoViejo);
 		preparedStmt.execute();
 	}*/
-
+/*
 	public static void main(String[] args) {
 		Conexion con = null;
 		Menu menu = new Menu();
@@ -801,6 +801,5 @@ public class main {
 		}
 		System.out.println(nColegiado + " - " + nombre + " " + apellidos + "; " + tiempo + ", " + especialidades);
 	}
-	
 	
 }

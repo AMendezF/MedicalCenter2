@@ -25,3 +25,4 @@ CentroMedico/nbproject/private/private.properties
 !CentroMedico/lib/CopyLibs/*
 !CentroMedico/lib/MySQLDriver/*
 CentroMedico/build/built-jar.properties
+/CentroMedico/dist/
