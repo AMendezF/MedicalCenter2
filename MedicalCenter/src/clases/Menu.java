@@ -8,7 +8,7 @@ import java.util.Scanner;
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-public class Menu {/*
+public class Menu {
 
 	private Paciente paciente;
 	private Medico medico;
@@ -189,5 +189,5 @@ public class Menu {/*
 		} while (!op.equals("0"));
 		System.out.println("Saliendo de menu medico\n");
 		con.desconectar();
-	}*/
+	}
 }
